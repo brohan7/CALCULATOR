@@ -1,0 +1,48 @@
+h1{
+ color:rgb(31, 137, 224);
+ padding-left: 600px;
+ }
+ .shf{
+ padding-left: 700px;
+ }
+ .button{
+ background-color: #1c87c9;
+ -webkit-border-radius: 60px;
+ border-radius: 60px;
+ border: none;
+ color: #eeeeee;
+ cursor: pointer;
+ display: inline-block;
+ font-family: sans-serif;
+ font-size: 20px;
+ padding: 10px 10px;
+ text-align: center;
+ text-decoration: none;
+ }
+ @keyframes glowing {
+ 0% {
+ background-color: #474761;
+ box-shadow: 0 0 5px #6b7268;
+ }
+ 50% {
+ background-color: #f387f3;
+ box-shadow: 0 0 20px #bba6c0;
+ }
+ 100% {
+ background-color: #eba439;
+ box-shadow: 0 0 5px #d8be87;
+ }
+ }
+ .button{
+ animation: glowing 1300ms infinite;
+ }
+ html{
+ background-color: bisque;
+ }
+ .box {
+ background: rgba(250, 252, 250, 0.705);
+ width: 50rem;
+ padding-right: 700px;
+ margin: 1rem auto;
+ border-radius: 0.5rem;
+ }
